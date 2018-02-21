@@ -681,11 +681,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF', endCol
 
 @media (max-width: 767px) {
 	.h-5 { height: 350px;}
-	.row:not(.row--fluid) .h-2:not(:last-child),
+	/*.row:not(.row--fluid) .h-2:not(:last-child),
 	.row:not(.row--fluid) .h-2:not(:last-child) + .h-2:last-child {
 		min-height: 235px;
 		height: auto;
-	}
+	}*/
 	
 	/* ? */
 	.col-xs-12[class*=h-]:not(.googlemap-api) {
@@ -5318,6 +5318,15 @@ i.fa.fa-linkedin-square.fa-lg {
 		margin: 10px 0;
 	}
 	.bg-color--tennis,.bg-color--vu {
+		text-align: center;
+	}
+	.m-center {
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	
+	.logo.left {
+		float: none;
 		text-align: center;
 	}
 	
