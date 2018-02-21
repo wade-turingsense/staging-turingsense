@@ -1,0 +1,15 @@
+{
+  "vars": {},
+  "css": [
+    "print.less",
+    "type.less",
+    "code.less",
+    "grid.less",
+    "responsive-utilities.less",
+    "responsive-embed.less"
+  ],
+  "js": [
+    "transition.js"
+  ],
+  "customizerUrl": "http://getbootstrap.com/customize/?id=584de39a4cfbeba8fc7dd9c3c08e8e09"
+}

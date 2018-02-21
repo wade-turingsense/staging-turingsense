@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:400,900');
+html, body, p
+					{	font-family: 'Georgia', sans-serif;	
+						
+						}
+						
+h1, h2, h3, h4, h5
+					{	font-family: 'Arima Madurai', sans-serif;
+						
+						}
+						
+h6, nav .uppercase a, .btn 						
+					{	font-family: 'Helvetica', sans-serif;
+						
+						}

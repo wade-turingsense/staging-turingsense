@@ -1,0 +1,3 @@
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 http://tm.aristarx.com/rush/specialty-404.html

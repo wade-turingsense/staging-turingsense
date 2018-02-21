@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,500,600");
+html, body, nav .uppercase a, .btn, h6, p
+					{	font-family: 'Open Sans', sans-serif !important;
+								
+						}
+						
+h1, h2, h3, h4, h5, h6.light		
+					{	font-family: 'Raleway', sans-serif !important;
+						
+						}	
