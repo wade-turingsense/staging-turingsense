@@ -51,6 +51,30 @@
 <link rel="stylesheet" href="js/picker/themes/classic.css" type="text/css" />
 <link rel="stylesheet" href="js/picker/themes/classic.date.css" type="text/css" />
 <link rel="stylesheet" href="js/prismjs/prism.css"  data-noprefix />
+
+<!--eu modal-->
+<style>
+#labs .centered {
+	text-align: center;
+}
+
+ul.euteam li h5 {
+    margin: 0px;
+}
+ul.euteam li {
+    margin-bottom: 30px;
+}
+
+#labs h4 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+</style>
+
+
+
+
+
 </head>  
 <body id="body" class="">
 	<nav class="nav--light nav--absolute">
@@ -231,7 +255,7 @@
 				<div class="col-md-4 col-xs-12">
 					<img src="images/office-italy.jpg" alt="map office Italy" /> 
 						<h3>TuringSense Europe</h3>
-						<h4>Turingsense EU Lab S.r.l.</h4>
+						<h4><a href="#modallabs" class="formmodal">Turingsense EU Lab S.r.l.</a></h4>
 						<p>Forli, Italy</p>
 						<p>Platform Engineering, R&D</p>
 						<p>P.IVA 04222090401</p>
@@ -373,7 +397,37 @@
 	</section>
 	<!--end Modal Joe-->
 	
-	
+	<!-- Modal Labs -->
+		<section style="display: none;">
+		<div id="labs" class="modal" data-modal="modallabs">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12">
+					<div class="card-horizontal boxed--radius-sm boxed--shadow bg-color--gray-2">
+						<div class="col-md-12 boxed centered">
+							<i class="material-icons ico-xs arcticmodal-close right">clear</i>
+							<h3>TuringSense EU Lab S.r.l.</h3>
+							<h4>Team</h4>
+							<ul class="euteam">
+								<li><h5>Pietro Garofalo:</h5><p>Technical Director</p></li>
+								<li><h5>Alessandro Montanari:</h5><p>IT Expert</p></li>
+								<li><h5>Carmelo Fiorentino:</h5><p>System Engineer</p></li>
+								<li><h5>Gianluca Biondi:</h5><p>Software Engineer</p> </li>
+								<li><h5>Michele Raggi:</h5><p>Biomechanical Engineer</p></li>
+								<li><h5>Gabriele Ligorio:</h5><p>Software Engineer</p></li>
+								<li><h5>Rudy Siwy:</h5><p>Product Management</p></li>
+								<li><h5>Filippo Gianferrari:</h5><p>Statistical Quality Control Technician</p></li>
+								<li><h5>Samantha Benassi:</h5><p>Operations Assistant</p></li>
+								<li><h5>Silvia Bonucci:</h5><p>Human Resources Manager</p></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--End Modal Labs-->
 	
 	
 		<!-- Modal Pietro -->
